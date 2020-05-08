@@ -1,0 +1,35 @@
+{
+	"name": "ceheiss_exercise_tracker",
+	"version": "0.0.1",
+	"description": "Exercise Tracker API project for freeCodeCamp",
+	"main": "server.js",
+	"scripts": {
+		"start": "env-cmd -f ./config/prod.env nodemon src/app.js",
+		"test": "jest"
+	},
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.1",
+		"dotenv": "^8.2.0",
+		"express": "^5.0.0-alpha.2",
+		"mongodb": "^3.5.4",
+		"mongoose": "^5.9.2"
+	},
+	"devDependencies": {
+		"env-cmd": "^10.1.0",
+		"jest": "^25.2.7",
+		"nodemon": "^2.0.3"
+	},
+	"engines": {
+		"node": "12.16.0"
+	},
+	"repository": {
+		"type": "git"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
